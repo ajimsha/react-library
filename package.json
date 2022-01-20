@@ -6,9 +6,13 @@
   "scripts": {
     "build": "rollup -c"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "react",
+    "keywords"
+],
+  "author": "Ajimsha",
+  
+  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.16.8",
     "@babel/core": "^7.16.10",
@@ -21,6 +25,10 @@
     "rollup-plugin-sourcemaps": "^0.6.3",
     "rollup-plugin-styles": "^4.0.0"
   },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+},
   "dependencies": {
     "@babel/runtime": "^7.16.7"
   }
